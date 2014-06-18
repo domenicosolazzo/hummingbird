@@ -72,6 +72,7 @@ Hummingbird.HeaderController = Ember.Controller.extend({
     });
   }.observes('searchTerm'),
   showUpdater: false,
+  showMenu: false,
   recentLibraryEntries: [],
   actions: {
     showSearchfield: function () {
@@ -96,6 +97,9 @@ Hummingbird.HeaderController = Ember.Controller.extend({
         }), 10);
       }
       return false;
+    },
+    toggleMenu: function(){
+      this.toggleProperty('showMenu');
     }
   }
 });
