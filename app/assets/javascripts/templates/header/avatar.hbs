@@ -1,0 +1,12 @@
+<li class="dropdown user-area">
+  <a class="dropdown-toggle navbar-avatar" data-toggle='dropdown'>
+    {{avatar currentUser "thumb_small"}}
+  </a>
+  <ul class="dropdown-menu right-nav-section">
+    <li>
+      <a href="/users/edit"> Edit Profile</a>
+      <a {{action 'signOut'}}> Sign out</a>
+      <a {{action openModal 'changelog' this}}> View Changelog</a>
+    </li>
+  </ul>
+</li>
