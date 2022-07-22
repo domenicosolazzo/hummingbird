@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/joshfabian/friendly_id.git
+  remote: https://github.com/joshfabian/friendly_id.git
   revision: 816389e86601c50da01151177ac1a23e7c29eec4
   specs:
     friendly_id (5.0.2)
@@ -413,7 +413,7 @@ GEM
       libv8 (~> 3.16.14.0)
       ref
     thor (0.19.1)
-    thread_safe (0.3.4)
+    thread_safe (0.3.6)
     tilt (1.4.1)
     timecop (0.7.1)
     timers (1.1.0)
@@ -424,7 +424,7 @@ GEM
       actionpack (>= 3.1)
       jquery-rails
       railties (>= 3.1)
-    tzinfo (1.2.1)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (2.5.1)
       execjs (>= 0.3.0)
